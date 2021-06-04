@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7558165448239078430}
   - component: {fileID: 6866904193930941371}
   - component: {fileID: 8694431844444415857}
+  - component: {fileID: -6615807324601594920}
+  - component: {fileID: 6656056252641501399}
   m_Layer: 0
   m_Name: HexagonForest
   m_TagString: Untagged
@@ -81,3 +83,29 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-6615807324601594920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7181042119289308836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7527218f6c8dccb49b48069b1c54a37a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!64 &6656056252641501399
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7181042119289308836}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2190622540023885545, guid: e4f7c652dc9909e45b11c344053518a6, type: 3}
