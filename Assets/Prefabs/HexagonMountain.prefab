@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6690248244194257622}
   - component: {fileID: 8880111228495715868}
   - component: {fileID: -3906831373914505161}
+  - component: {fileID: 7167343808626031835}
   - component: {fileID: -5484314254472876527}
   m_Layer: 0
   m_Name: HexagonMountain
@@ -93,6 +94,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7527218f6c8dccb49b48069b1c54a37a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7167343808626031835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6934560931894427593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 623e7f7b69648954fb8680e6dca28eef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!64 &-5484314254472876527
