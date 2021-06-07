@@ -45,8 +45,9 @@ public class BoardManager : MonoBehaviour
         hexagonTile[_indexHexagonTile] = hexagonInstance;
 
         _indexHexagonTile++;
-    }    
+    }
 
+    #region Board construction 
     // Deserte 0 ; Forest 1; Grass 2; Mountain 3; Water 4
     private void FirstRow() 
     {
@@ -137,9 +138,11 @@ public class BoardManager : MonoBehaviour
         GetHexagon(2, 6.5f, -5.25f);
         GetHexagon(4, 7.5f, -5.25f);
     }
+    #endregion
     private void SetFirstGridPosition()
     {
         int currentIndex = 0;
+        // This is O(n²)
         for (int x = 0; x < _height; x++)
         {
             for (int y = 0; y < _width; y++)

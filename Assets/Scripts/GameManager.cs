@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    /* This class contains Singleton */
     private static GameManager _instanceGameManager;    
     private BoardManager _boardManager;
 
@@ -23,6 +24,6 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        _boardManager.Setup();        
+        _boardManager.Setup();
     }
 }
