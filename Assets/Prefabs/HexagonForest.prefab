@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8694431844444415857}
   - component: {fileID: -6615807324601594920}
   - component: {fileID: 8603953677744090532}
+  - component: {fileID: 315781294896494518}
   - component: {fileID: 6656056252641501399}
   m_Layer: 0
   m_Name: HexagonForest
@@ -108,6 +109,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 623e7f7b69648954fb8680e6dca28eef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _nodeCurrentPosition: {x: 0, y: 0}
+--- !u!114 &315781294896494518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7181042119289308836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e450ede9a372d4eb3adcb8d14b01cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _costHexagon: 3
 --- !u!64 &6656056252641501399
 MeshCollider:
   m_ObjectHideFlags: 0
