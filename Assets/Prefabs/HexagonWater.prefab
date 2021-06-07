@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4201364931830041549}
   - component: {fileID: 3471068888445014820}
   - component: {fileID: -1541878681517746920}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: HexagonWater
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -108,6 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 623e7f7b69648954fb8680e6dca28eef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _nodeCurrentPosition: {x: 0, y: 0}
 --- !u!64 &-1541878681517746920
 MeshCollider:
   m_ObjectHideFlags: 0
