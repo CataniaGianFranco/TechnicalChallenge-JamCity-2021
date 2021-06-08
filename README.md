@@ -1,2 +1,2 @@
-# TechnicalChallenge-JamCitiy-2021
+# TechnicalChallenge-JamCity-2021
 Desafío Técnico
