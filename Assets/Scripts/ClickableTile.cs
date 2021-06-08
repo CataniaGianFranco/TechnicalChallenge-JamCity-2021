@@ -1,11 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ClickableTile : MonoBehaviour
 {
+    private MeshRenderer _thisMeshRenderer;
+    public void Awake()
+    {
+        _thisMeshRenderer = GetComponent<MeshRenderer>();
+    }
     public void OnMouseUp()
     {
-        Debug.Log("Click this tile");
+            _thisMeshRenderer.material.color = Color.green;
+
     }
 }
