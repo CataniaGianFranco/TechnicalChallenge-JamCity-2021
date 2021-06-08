@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class ClickableTile : MonoBehaviour
 {
     private GameManager _scriptGameManager;
@@ -8,7 +7,6 @@ public class ClickableTile : MonoBehaviour
     {
         _thisMeshRenderer = GetComponent<MeshRenderer>();
         _scriptGameManager = GameObject.Find("GameManager(Clone)").GetComponent<GameManager>();
-        
     }
     public void OnMouseUp()
     {
@@ -22,7 +20,6 @@ public class ClickableTile : MonoBehaviour
 
             if (_scriptGameManager.TargetHexagon == null)
                 _scriptGameManager.TargetHexagon = this.gameObject;
-
         }
     }
 }
