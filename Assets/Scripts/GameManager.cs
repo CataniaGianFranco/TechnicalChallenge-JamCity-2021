@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     private static GameManager _instanceGameManager;    
     private BoardManager _boardManager;
 
+    private int _countClick = 2;
+    public int CountClick { get => _countClick; set => _countClick = value; }
     public static GameManager InstanceGameManager { get => _instanceGameManager; set => _instanceGameManager = value; }
 
     private void Awake()
