@@ -16,6 +16,13 @@ public class ClickableTile : MonoBehaviour
         {
             _thisMeshRenderer.material.color = Color.green;
             _scriptGameManager.CountClick--;
+
+            if (_scriptGameManager.InitialHexagon == null) 
+                _scriptGameManager.InitialHexagon = this.gameObject;
+
+            if (_scriptGameManager.TargetHexagon == null)
+                _scriptGameManager.TargetHexagon = this.gameObject;
+
         }
     }
 }
