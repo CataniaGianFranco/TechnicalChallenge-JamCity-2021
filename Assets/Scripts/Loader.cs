@@ -1,3 +1,4 @@
+using PathFinding;
 using UnityEngine;
 
 public class Loader : MonoBehaviour
